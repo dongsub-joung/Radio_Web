@@ -1,0 +1,16 @@
+section{
+    
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.play-list{
+    border: thin solid black;
+    width: 50%;
+    height: 250px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}

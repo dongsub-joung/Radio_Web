@@ -1,5 +1,56 @@
-.header{
-    color: blue;
-    background-color: blue;
+html, body {
+    height:100%;
+    /*overflow:hidden*/ 
+    display: flex;
+} 
+
+
+header{
+    color: black;
+    background-color: #D3D3D3;
     border: 1px black; padding: 10px;
+    width: 230px;
+    height: 100%;
+    text-align: center;
+}
+
+.login-function{
+    background-color:#FFFACD;
+    border-radius: 10px;
+}
+
+#mainTitle{
+    font-size: xx-large;
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+
+.remainID{
+    text-align: justify;
+    margin-left: 53px;
+    margin-bottom: 7px;
+}
+
+
+/*  ####################### */
+/*  글 목록 */
+
+article{
+
+}
+
+.reviewList{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.reviewInfo{
+    margin-left: 50px;
+    flex: 1;
 }
